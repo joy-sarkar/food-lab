@@ -107,6 +107,7 @@ span{
     border-radius: 10px;
     padding: 30px 20px 20px 40px;
     margin: auto;
+    text-align: justify;
    
 }
 #manu-item a, h3, h1{
@@ -114,16 +115,21 @@ span{
     padding: 8px;
    
 }
+#manu-body{
+    text-align: justify;
+    margin-bottom: 20px;
+}
 .manu-left h1{
     font-size: 40px;
 }
 
 .m-item{
-    color: white;
-    margin: auto;
-    border-radius: 20%;
+    margin-bottom: 5px; 
+    border-radius: 15%;
     color: rgb(15, 14, 14);
-    background-image: linear-gradient(to left,orange, tomato);
+    background-color: white;
+    box-shadow: 5px 5px 10px wheat;
+   
 }
 .manu-left{
     width: 20%;
@@ -146,12 +152,33 @@ span{
 .food-iteam-1 img{
     height: 70%;
 }
-#left{
+#top{
     text-align: center;
 
 }
-#right{
+#bottom{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+   
+   
 
+}
+.p-1{
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 10px 10px 20px rgb(49, 46, 46);
+    padding: 10px;
+    margin: auto;
+   
+}
+.p-1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+   
 }
 footer{
     height: 100px;
@@ -159,6 +186,7 @@ footer{
     width: 100%;
     margin-top: 60px;
     text-align: center;
+    padding: 30px 20px  0px;
 }
 footer p{
     color: whitesmoke;
